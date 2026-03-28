@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 2,
+  "actualizadoEn": "2026-03-28",
+  "fuente": "Verificado con Secretarías de Movilidad oficiales de cada ciudad",
+  "ciudades": {
+    "Bogotá": [
+      {
+        "title": "Pico y Placa — Particular",
+        "tipoVehiculo": "particular",
+        "source": "Decreto 003 de 2023 — Alcaldía Mayor de Bogotá",
+        "nota": "Sistema por paridad de fecha. Fecha par: restringidas 1-5. Fecha impar: restringidas 6-0. No aplica fines de semana ni festivos.",
+        "sistema": "paridadFecha",
+        "ventanas": [{ "inicio": "06:00", "fin": "21:00" }],
+        "aplicaMotos": false,
+        "digitosPorDia": null
+      },
+      {
+        "title": "Pico y Placa — Taxi / Transporte especial",
+        "tipoVehiculo": "taxi",
+        "source": "Decreto 003 de 2023 — Alcaldía Mayor de Bogotá",
+        "nota": "Rotación semanal en grupos de dos dígitos (1-2, 3-4, 5-6, 7-8, 9-0). Verificar semana actual en movilidadbogota.gov.co",
+        "sistema": "sinRestriccion",
+        "ventanas": [{ "inicio": "05:30", "fin": "21:00" }],
+        "aplicaMotos": false,
+        "digitosPorDia": null
+      }
+    ],
+    "Medellín": [
+      {
+        "title": "Pico y Placa — Particular y Moto",
+        "tipoVehiculo": "particular",
+        "source": "Decreto 0627 de 2024 — Secretaría de Movilidad de Medellín",
+        "nota": "Aplica también a motocicletas en toda el área metropolitana.",
+        "sistema": "rotacionDiaria",
+        "ventanas": [{ "inicio": "05:00", "fin": "20:00" }],
+        "aplicaMotos": true,
+        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+      }
+    ],
+    "Cali": [
+      {
+        "title": "Pico y Placa — Particular",
+        "tipoVehiculo": "particular",
+        "source": "Secretaría de Tránsito y Transporte de Cali",
+        "nota": null,
+        "sistema": "rotacionDiaria",
+        "ventanas": [{ "inicio": "06:00", "fin": "19:00" }],
+        "aplicaMotos": false,
+        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+      }
+    ],
+    "Cartagena": [
+      {
+        "title": "Pico y Placa — Particular",
+        "tipoVehiculo": "particular",
+        "source": "Secretaría de Movilidad de Cartagena",
+        "nota": "Motocicletas tienen horario extendido 5:00 AM - 11:00 PM.",
+        "sistema": "rotacionDiaria",
+        "ventanas": [
+          { "inicio": "07:00", "fin": "09:00" },
+          { "inicio": "18:00", "fin": "20:00" }
+        ],
+        "aplicaMotos": false,
+        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+      }
+    ],
+    "Santa Marta": [
+      {
+        "title": "Pico y Placa — Particular y Moto",
+        "tipoVehiculo": "particular",
+        "source": "Secretaría de Tránsito de Santa Marta",
+        "nota": null,
+        "sistema": "rotacionDiaria",
+        "ventanas": [{ "inicio": "07:00", "fin": "19:00" }],
+        "aplicaMotos": true,
+        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+      }
+    ],
+    "Pereira": [
+      {
+        "title": "Pico y Placa — Particular y Moto",
+        "tipoVehiculo": "particular",
+        "source": "Secretaría de Tránsito de Pereira",
+        "nota": null,
+        "sistema": "rotacionDiaria",
+        "ventanas": [{ "inicio": "06:00", "fin": "20:00" }],
+        "aplicaMotos": true,
+        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+      }
+    ],
+    "Bucaramanga": [
+      {
+        "title": "Pico y Placa — Particular y Moto",
+        "tipoVehiculo": "particular",
+        "source": "Secretaría de Tránsito de Bucaramanga",
+        "nota": "Aplica también sábados de 9:00 AM a 1:00 PM.",
+        "sistema": "rotacionDiaria",
+        "ventanas": [{ "inicio": "06:00", "fin": "20:00" }],
+        "aplicaMotos": true,
+        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+      }
+    ],
+    "Cúcuta": [
+      {
+        "title": "Pico y Placa — Particular y Moto",
+        "tipoVehiculo": "particular",
+        "source": "Secretaría de Tránsito de Cúcuta",
+        "nota": "Área metropolitana. Tres franjas horarias.",
+        "sistema": "rotacionDiaria",
+        "ventanas": [
+          { "inicio": "07:30", "fin": "08:30" },
+          { "inicio": "11:30", "fin": "14:30" },
+          { "inicio": "17:30", "fin": "19:30" }
+        ],
+        "aplicaMotos": true,
+        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+      }
+    ],
+    "Pasto": [
+      {
+        "title": "Pico y Placa — Particular, Moto y Taxi",
+        "tipoVehiculo": "particular",
+        "source": "Secretaría de Tránsito de Pasto",
+        "nota": null,
+        "sistema": "rotacionDiaria",
+        "ventanas": [{ "inicio": "07:30", "fin": "19:00" }],
+        "aplicaMotos": true,
+        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+      }
+    ],
+    "Popayán": [
+      {
+        "title": "Pico y Placa — Particular y Moto",
+        "tipoVehiculo": "particular",
+        "source": "Secretaría de Tránsito de Popayán",
+        "nota": "Taxis y transporte público colectivo están exentos.",
+        "sistema": "rotacionDiaria",
+        "ventanas": [{ "inicio": "07:00", "fin": "20:00" }],
+        "aplicaMotos": true,
+        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+      }
+    ],
+    "Villavicencio": [
+      {
+        "title": "Pico y Placa — Particular",
+        "tipoVehiculo": "particular",
+        "source": "Secretaría de Tránsito de Villavicencio",
+        "nota": null,
+        "sistema": "rotacionDiaria",
+        "ventanas": [
+          { "inicio": "06:30", "fin": "08:30" },
+          { "inicio": "17:00", "fin": "19:30" }
+        ],
+        "aplicaMotos": false,
+        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+      }
+    ],
+    "Ibagué": [
+      {
+        "title": "Pico y Placa — Particular",
+        "tipoVehiculo": "particular",
+        "source": "Secretaría de Tránsito de Ibagué",
+        "nota": "Horas valle libres: 9:00-11:00 AM y 3:00-5:00 PM para placas matriculadas en Ibagué.",
+        "sistema": "rotacionDiaria",
+        "ventanas": [{ "inicio": "06:00", "fin": "21:00" }],
+        "aplicaMotos": false,
+        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+      }
+    ],
+    "Armenia": [
+      {
+        "title": "Pico y Placa — Particular y Moto",
+        "tipoVehiculo": "particular",
+        "source": "Secretaría de Tránsito de Armenia",
+        "nota": "Centro ampliado: horarios adicionales 7:00-9:00 AM, 11:30 AM-2:00 PM y 5:30-7:00 PM.",
+        "sistema": "rotacionDiaria",
+        "ventanas": [{ "inicio": "07:00", "fin": "19:00" }],
+        "aplicaMotos": true,
+        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+      }
+    ],
+    "Manizales": [
+      {
+        "title": "Pico y Placa — Suspendido para particulares",
+        "tipoVehiculo": "particular",
+        "source": "Secretaría de Tránsito de Manizales",
+        "nota": "La medida para vehículos particulares está suspendida actualmente.",
+        "sistema": "sinRestriccion",
+        "ventanas": [],
+        "aplicaMotos": false,
+        "digitosPorDia": null
+      }
+    ]
+  }
+}
