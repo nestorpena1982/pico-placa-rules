@@ -1,7 +1,30 @@
 {
   "schemaVersion": 2,
-  "actualizadoEn": "2026-03-28",
+  "actualizadoEn": "2026-06-13",
   "fuente": "Verificado con Secretarías de Movilidad oficiales de cada ciudad",
+  "exenciones": {
+  "Bogotá": {
+    "cubreHibridos": true,
+    "cubreElectricos": true,
+    "fuente": "Art. 230 del Decreto Distrital 652 de 2025 (excepciones al Pico y Placa; el parágrafo 2 del Art. 229 ibídem las extiende al Pico y Placa Regional)",
+    "requisito": "Los HÍBRIDOS deben pre-inscribirse en la plataforma de la Secretaría Distrital de Movilidad (el trámite puede tardar hasta 20 días hábiles). Los ELÉCTRICOS quedan inscritos automáticamente.",
+    "urlImpugnacion": "vus.circulemosdigital.com.co"
+  },
+  "Medellín": {
+    "cubreHibridos": true,
+    "cubreElectricos": true,
+    "fuente": "Decreto de Pico y Placa vigente de la Alcaldía de Medellín (Secretaría de Movilidad — área metropolitana del Valle de Aburrá)",
+    "requisito": "El vehículo debe estar registrado en el RUNT como híbrido o eléctrico, con licencia de tránsito que acredite esa tecnología.",
+    "urlImpugnacion": null
+  },
+  "Cali": {
+    "cubreHibridos": true,
+    "cubreElectricos": true,
+    "fuente": "Decreto de Pico y Placa vigente de la Alcaldía de Santiago de Cali (Secretaría de Movilidad)",
+    "requisito": "El vehículo debe estar parametrizado en el RUNT con combustible eléctrico, gasolina/eléctrico o diésel/eléctrico.",
+    "urlImpugnacion": null
+  }
+},
   "ciudades": {
     "Bogotá": [
       {
