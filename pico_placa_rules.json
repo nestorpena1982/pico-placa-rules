@@ -209,7 +209,8 @@
         "source": "Secretaría de Tránsito de Manizales",
         "nota": "La medida para vehículos particulares está suspendida actualmente.",
         "sistema": "sinRestriccion",
-        "ventanas": [],
+       "sistema": "sinRestriccion",
+       "ventanas": [{ "inicio": "00:00", "fin": "00:00" }],
         "aplicaMotos": false,
         "digitosPorDia": null
       }
