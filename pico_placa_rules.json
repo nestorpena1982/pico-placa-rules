@@ -108,6 +108,7 @@
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "06:00", "fin": "20:00" }],
         "aplicaMotos": true,
+        "verificado": false,
         "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
       }
     ],
@@ -116,10 +117,11 @@
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
         "source": "Dirección de Tránsito de Bucaramanga (rotación trimestral abr–jun 2026)",
-        "nota": "Aplica también sábados de 9:00 AM a 1:00 PM. ⚠️ Rotación trimestral: Lun y Mar verificados, el resto sigue el patrón. Confírmala en transitobucaramanga.gov.co.",
+        "nota": "Aplica también sábados de 9:00 AM a 1:00 PM. ⚠️ Rotación trimestral no verificada por completo; confírmala en transitobucaramanga.gov.co.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "06:00", "fin": "20:00" }],
         "aplicaMotos": true,
+        "verificado": false,
         "digitosPorDia": { "1": [9,0], "2": [1,2], "3": [3,4], "4": [5,6], "5": [7,8] }
       }
     ],
@@ -160,6 +162,7 @@
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "07:00", "fin": "20:00" }],
         "aplicaMotos": true,
+        "verificado": false,
         "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
       }
     ],
@@ -187,6 +190,7 @@
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "06:00", "fin": "21:00" }],
         "aplicaMotos": false,
+        "verificado": false,
         "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
       }
     ],
