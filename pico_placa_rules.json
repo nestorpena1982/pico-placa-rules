@@ -76,15 +76,15 @@
       {
         "title": "Pico y Placa — Particular",
         "tipoVehiculo": "particular",
-        "source": "Secretaría de Movilidad de Cartagena",
-        "nota": "Motocicletas tienen horario extendido 5:00 AM - 11:00 PM.",
+        "source": "Decreto 0015 de 2026 — Alcaldía de Cartagena (rotación jun 1–26)",
+        "nota": "⚠️ Cartagena rota los dígitos varias veces al año; verifica la vigente en cartagena.gov.co.",
         "sistema": "rotacionDiaria",
         "ventanas": [
           { "inicio": "07:00", "fin": "09:00" },
           { "inicio": "18:00", "fin": "20:00" }
         ],
         "aplicaMotos": false,
-        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+        "digitosPorDia": { "1": [5,6], "2": [7,8], "3": [9,0], "4": [1,2], "5": [3,4] }
       }
     ],
     "Santa Marta": [
@@ -127,11 +127,11 @@
       {
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
-        "source": "Secretaría de Tránsito de Cúcuta",
+        "source": "Decreto 0212 de 2024 — Alcaldía de Cúcuta",
         "nota": "Área metropolitana. Tres franjas horarias.",
         "sistema": "rotacionDiaria",
         "ventanas": [
-          { "inicio": "07:30", "fin": "08:30" },
+          { "inicio": "07:00", "fin": "08:30" },
           { "inicio": "11:30", "fin": "14:30" },
           { "inicio": "17:30", "fin": "19:30" }
         ],
@@ -143,12 +143,12 @@
       {
         "title": "Pico y Placa — Particular, Moto y Taxi",
         "tipoVehiculo": "particular",
-        "source": "Secretaría de Tránsito de Pasto",
+        "source": "Decreto 0053 de 2026 — Alcaldía de Pasto",
         "nota": null,
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "07:30", "fin": "19:00" }],
         "aplicaMotos": true,
-        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+        "digitosPorDia": { "1": [0,1], "2": [2,3], "3": [4,5], "4": [6,7], "5": [8,9] }
       }
     ],
     "Popayán": [
