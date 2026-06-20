@@ -1,36 +1,36 @@
 {
   "schemaVersion": 2,
-  "actualizadoEn": "2026-06-13",
-  "fuente": "Verificado con Secretarías de Movilidad oficiales de cada ciudad",
+  "actualizadoEn": "2026-06-19",
+  "fuente": "Verificado con Secretarías de Movilidad oficiales y prensa local (junio 2026)",
   "exenciones": {
-  "Bogotá": {
-    "cubreHibridos": true,
-    "cubreElectricos": true,
-    "fuente": "Art. 230 del Decreto Distrital 652 de 2025 (excepciones al Pico y Placa; el parágrafo 2 del Art. 229 ibídem las extiende al Pico y Placa Regional)",
-    "requisito": "Los HÍBRIDOS deben pre-inscribirse en la plataforma de la Secretaría Distrital de Movilidad (el trámite puede tardar hasta 20 días hábiles). Los ELÉCTRICOS quedan inscritos automáticamente.",
-    "urlImpugnacion": "vus.circulemosdigital.com.co"
+    "Bogotá": {
+      "cubreHibridos": true,
+      "cubreElectricos": true,
+      "fuente": "Art. 230 del Decreto Distrital 652 de 2025 (excepciones al Pico y Placa; el parágrafo 2 del Art. 229 ibídem las extiende al Pico y Placa Regional)",
+      "requisito": "Los HÍBRIDOS deben pre-inscribirse en la plataforma de la Secretaría Distrital de Movilidad (el trámite puede tardar hasta 20 días hábiles). Los ELÉCTRICOS quedan inscritos automáticamente.",
+      "urlImpugnacion": "vus.circulemosdigital.com.co"
+    },
+    "Medellín": {
+      "cubreHibridos": true,
+      "cubreElectricos": true,
+      "fuente": "Decreto de Pico y Placa vigente de la Alcaldía de Medellín (Secretaría de Movilidad — área metropolitana del Valle de Aburrá)",
+      "requisito": "El vehículo debe estar registrado en el RUNT como híbrido o eléctrico, con licencia de tránsito que acredite esa tecnología.",
+      "urlImpugnacion": null
+    },
+    "Cali": {
+      "cubreHibridos": true,
+      "cubreElectricos": true,
+      "fuente": "Decreto de Pico y Placa vigente de la Alcaldía de Santiago de Cali (Secretaría de Movilidad)",
+      "requisito": "El vehículo debe estar parametrizado en el RUNT con combustible eléctrico, gasolina/eléctrico o diésel/eléctrico.",
+      "urlImpugnacion": null
+    }
   },
-  "Medellín": {
-    "cubreHibridos": true,
-    "cubreElectricos": true,
-    "fuente": "Decreto de Pico y Placa vigente de la Alcaldía de Medellín (Secretaría de Movilidad — área metropolitana del Valle de Aburrá)",
-    "requisito": "El vehículo debe estar registrado en el RUNT como híbrido o eléctrico, con licencia de tránsito que acredite esa tecnología.",
-    "urlImpugnacion": null
-  },
-  "Cali": {
-    "cubreHibridos": true,
-    "cubreElectricos": true,
-    "fuente": "Decreto de Pico y Placa vigente de la Alcaldía de Santiago de Cali (Secretaría de Movilidad)",
-    "requisito": "El vehículo debe estar parametrizado en el RUNT con combustible eléctrico, gasolina/eléctrico o diésel/eléctrico.",
-    "urlImpugnacion": null
-  }
-},
   "ciudades": {
     "Bogotá": [
       {
         "title": "Pico y Placa — Particular",
         "tipoVehiculo": "particular",
-        "source": "Decreto 003 de 2023 — Alcaldía Mayor de Bogotá",
+        "source": "Decreto Único Sectorial 652 de 2025 (compiló el Decreto 003 de 2023) — Alcaldía Mayor de Bogotá",
         "nota": "Sistema por paridad de fecha. Fecha par: restringidas 1-5. Fecha impar: restringidas 6-0. No aplica fines de semana ni festivos.",
         "sistema": "paridadFecha",
         "ventanas": [{ "inicio": "06:00", "fin": "21:00" }],
@@ -40,7 +40,7 @@
       {
         "title": "Pico y Placa — Taxi / Transporte especial",
         "tipoVehiculo": "taxi",
-        "source": "Decreto 003 de 2023 — Alcaldía Mayor de Bogotá",
+        "source": "Decreto Único Sectorial 652 de 2025 (compiló el Decreto 003 de 2023) — Alcaldía Mayor de Bogotá",
         "nota": "Rotación semanal en grupos de dos dígitos (1-2, 3-4, 5-6, 7-8, 9-0). Verificar semana actual en movilidadbogota.gov.co",
         "sistema": "sinRestriccion",
         "ventanas": [{ "inicio": "05:30", "fin": "21:00" }],
@@ -52,20 +52,20 @@
       {
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
-        "source": "Decreto 0627 de 2024 — Secretaría de Movilidad de Medellín",
-        "nota": "Aplica también a motocicletas en toda el área metropolitana.",
+        "source": "Rotación primer semestre 2026 (vigente desde el 2 de febrero) — Secretaría de Movilidad de Medellín",
+        "nota": "Aplica también a motocicletas (primer dígito) en toda el área metropolitana. La rotación cambia cada semestre.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "05:00", "fin": "20:00" }],
         "aplicaMotos": true,
-        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+        "digitosPorDia": { "1": [1,7], "2": [0,3], "3": [4,6], "4": [5,9], "5": [2,8] }
       }
     ],
     "Cali": [
       {
         "title": "Pico y Placa — Particular",
         "tipoVehiculo": "particular",
-        "source": "Secretaría de Tránsito y Transporte de Cali",
-        "nota": null,
+        "source": "Rotación primer semestre 2026 — Alcaldía de Santiago de Cali",
+        "nota": "Rotación vigente hasta el 30 de junio de 2026; cambia el 1 de julio.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "06:00", "fin": "19:00" }],
         "aplicaMotos": false,
@@ -76,8 +76,8 @@
       {
         "title": "Pico y Placa — Particular",
         "tipoVehiculo": "particular",
-        "source": "Decreto 0015 de 2026 — Alcaldía de Cartagena (rotación jun 1–26)",
-        "nota": "⚠️ Cartagena rota los dígitos varias veces al año; verifica la vigente en cartagena.gov.co.",
+        "source": "Decreto 0015 de 2026 — Alcaldía de Cartagena (rotación vigente jun 1–26)",
+        "nota": "⚠️ Cartagena rota los dígitos varias veces al año; verifica la rotación vigente en cartagena.gov.co.",
         "sistema": "rotacionDiaria",
         "ventanas": [
           { "inicio": "07:00", "fin": "09:00" },
@@ -91,10 +91,10 @@
       {
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
-        "source": "Secretaría de Tránsito de Santa Marta",
-        "nota": null,
+        "source": "Decreto 213 de 2026 — Alcaldía Distrital de Santa Marta",
+        "nota": "⚠️ El horario depende de si el vehículo está matriculado en Santa Marta (franjas 7-9am, 11:30am-2pm, 5-8pm) o no (continuo 7am-8pm). Verifica en la fuente oficial.",
         "sistema": "rotacionDiaria",
-        "ventanas": [{ "inicio": "07:00", "fin": "19:00" }],
+        "ventanas": [{ "inicio": "07:00", "fin": "20:00" }],
         "aplicaMotos": true,
         "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
       }
@@ -104,7 +104,7 @@
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
         "source": "Secretaría de Tránsito de Pereira",
-        "nota": null,
+        "nota": "⚠️ La rotación de dígitos pudo cambiar para 2026 y de nuevo en julio; confírmala en la fuente oficial.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "06:00", "fin": "20:00" }],
         "aplicaMotos": true,
@@ -115,12 +115,12 @@
       {
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
-        "source": "Secretaría de Tránsito de Bucaramanga",
-        "nota": "Aplica también sábados de 9:00 AM a 1:00 PM.",
+        "source": "Dirección de Tránsito de Bucaramanga (rotación trimestral abr–jun 2026)",
+        "nota": "Aplica también sábados de 9:00 AM a 1:00 PM. ⚠️ Rotación trimestral: Lun y Mar verificados, el resto sigue el patrón. Confírmala en transitobucaramanga.gov.co.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "06:00", "fin": "20:00" }],
         "aplicaMotos": true,
-        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+        "digitosPorDia": { "1": [9,0], "2": [1,2], "3": [3,4], "4": [5,6], "5": [7,8] }
       }
     ],
     "Cúcuta": [
@@ -128,7 +128,7 @@
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
         "source": "Decreto 0212 de 2024 — Alcaldía de Cúcuta",
-        "nota": "Área metropolitana. Tres franjas horarias.",
+        "nota": "Área metropolitana. Tres franjas horarias. También existe régimen Placa-Día para placa nacional/extranjera (continuo 7am-8pm).",
         "sistema": "rotacionDiaria",
         "ventanas": [
           { "inicio": "07:00", "fin": "08:30" },
@@ -144,7 +144,7 @@
         "title": "Pico y Placa — Particular, Moto y Taxi",
         "tipoVehiculo": "particular",
         "source": "Decreto 0053 de 2026 — Alcaldía de Pasto",
-        "nota": null,
+        "nota": "Misma rotación para particulares, motos y taxis (último dígito).",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "07:30", "fin": "19:00" }],
         "aplicaMotos": true,
@@ -156,7 +156,7 @@
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
         "source": "Secretaría de Tránsito de Popayán",
-        "nota": "Taxis y transporte público colectivo están exentos.",
+        "nota": "Taxis y transporte público colectivo están exentos. ⚠️ Rotación no verificada para 2026; confírmala en la fuente oficial.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "07:00", "fin": "20:00" }],
         "aplicaMotos": true,
@@ -167,23 +167,23 @@
       {
         "title": "Pico y Placa — Particular",
         "tipoVehiculo": "particular",
-        "source": "Secretaría de Tránsito de Villavicencio",
+        "source": "Decreto 015 de 2026 — Alcaldía de Villavicencio",
         "nota": null,
         "sistema": "rotacionDiaria",
         "ventanas": [
-          { "inicio": "06:30", "fin": "08:30" },
-          { "inicio": "17:00", "fin": "19:30" }
+          { "inicio": "06:30", "fin": "09:30" },
+          { "inicio": "17:00", "fin": "20:00" }
         ],
         "aplicaMotos": false,
-        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+        "digitosPorDia": { "1": [5,6], "2": [7,8], "3": [9,0], "4": [1,2], "5": [3,4] }
       }
     ],
     "Ibagué": [
       {
         "title": "Pico y Placa — Particular",
         "tipoVehiculo": "particular",
-        "source": "Secretaría de Tránsito de Ibagué",
-        "nota": "Horas valle libres: 9:00-11:00 AM y 3:00-5:00 PM para placas matriculadas en Ibagué.",
+        "source": "Decreto 0768 de 2025 — Alcaldía de Ibagué",
+        "nota": "Horas valle libres: 9:00-11:00 AM y 3:00-5:00 PM para placas matriculadas en Ibagué. ⚠️ La rotación cambió para 2026 y de nuevo el 1 de julio; confírmala en la fuente oficial.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "06:00", "fin": "21:00" }],
         "aplicaMotos": false,
@@ -194,12 +194,12 @@
       {
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
-        "source": "Secretaría de Tránsito de Armenia",
-        "nota": "Centro ampliado: horarios adicionales 7:00-9:00 AM, 11:30 AM-2:00 PM y 5:30-7:00 PM.",
+        "source": "Decreto 135 de 2026 — Alcaldía de Armenia",
+        "nota": "Aplica en todo el perímetro urbano, 7:00 a.m. a 7:00 p.m. continuo. Prórroga por 6 meses (obras).",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "07:00", "fin": "19:00" }],
         "aplicaMotos": true,
-        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+        "digitosPorDia": { "1": [5,6], "2": [7,8], "3": [9,0], "4": [1,2], "5": [3,4] }
       }
     ],
     "Manizales": [
@@ -209,8 +209,7 @@
         "source": "Secretaría de Tránsito de Manizales",
         "nota": "La medida para vehículos particulares está suspendida actualmente.",
         "sistema": "sinRestriccion",
-       "sistema": "sinRestriccion",
-       "ventanas": [{ "inicio": "00:00", "fin": "00:00" }],
+        "ventanas": [{ "inicio": "00:00", "fin": "00:00" }],
         "aplicaMotos": false,
         "digitosPorDia": null
       }
