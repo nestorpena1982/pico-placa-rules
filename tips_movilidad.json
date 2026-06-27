@@ -1,0 +1,77 @@
+{
+  "_comentario": "Tips de movilidad VERIFICADOS para evitar comparendos. Cada uno con su base legal. NO agregar tips sin verificar la fuente. Se rotan uno por día.",
+  "tips": [
+    {
+      "tip": "Si tu carro viene de fábrica con kit de reparación, sellante o llantas run-flat en vez de llanta de repuesto, NO te pueden multar por no llevar repuesto.",
+      "fuente": "Circular MinTransporte 20174000431181 de 2017"
+    },
+    {
+      "tip": "En Bogotá impugnar un comparendo es GRATIS y sin intermediarios: hazlo en vus.circulemosdigital.com.co. Tienes 5 días hábiles (11 si es fotomulta).",
+      "fuente": "Ley 1843 de 2017 · Secretaría Distrital de Movilidad"
+    },
+    {
+      "tip": "Los vehículos 100% eléctricos están exentos de Pico y Placa en TODO el país. Si te ponen un comparendo C14, es impugnable.",
+      "fuente": "Art. 6, Ley 1964 de 2019"
+    },
+    {
+      "tip": "La exención de Pico y Placa para HÍBRIDOS no es nacional: depende del decreto de cada ciudad y casi siempre exige registro previo (RUNT o plataforma local). Verifícalo antes de confiarte.",
+      "fuente": "Decretos municipales de cada ciudad"
+    },
+    {
+      "tip": "Puedes estacionar a partir de 5 metros de la esquina (bocacalle), no 10. Y a no más de 30 cm del andén.",
+      "fuente": "Art. 76, Ley 769 de 2002 (reformado por Ley 1383 de 2010)"
+    },
+    {
+      "tip": "Tienes 5 días hábiles para presentar descargos de un comparendo en vía, y 11 días hábiles si es una fotomulta. No dejes vencer el plazo.",
+      "fuente": "Ley 1843 de 2017"
+    },
+    {
+      "tip": "El kit de carretera es obligatorio: gato, cruceta, dos señales reflectivas, botiquín, extintor, tacos, caja de herramientas y linterna. Revísalo antes de viajar.",
+      "fuente": "Art. 30, Ley 769 de 2002"
+    },
+    {
+      "tip": "En un retén NUNCA obstruyas el procedimiento, pero SÍ tienes derecho a pedirle al agente que se identifique (nombre y placa) y a que cite la norma exacta.",
+      "fuente": "Art. 21, Ley 1801 de 2016 · Art. 135, Ley 769 de 2002"
+    },
+    {
+      "tip": "El cinturón de seguridad es obligatorio para TODOS los ocupantes, adelante y atrás. Conducir sin él es comparendo.",
+      "fuente": "Art. 82, Ley 769 de 2002"
+    },
+    {
+      "tip": "Usar el celular en la mano mientras conduces es infracción. Usa manos libres o detente en un lugar seguro.",
+      "fuente": "Art. 131, Ley 769 de 2002"
+    },
+    {
+      "tip": "El casco es obligatorio para el conductor Y el parrillero de la moto, bien abrochado. Sin él, te inmovilizan la moto.",
+      "fuente": "Art. 94, Ley 769 de 2002"
+    },
+    {
+      "tip": "El Pico y Placa Regional de Bogotá NO es diario: solo aplica el último día de retorno de los puentes festivos, en 9 corredores de ingreso a la ciudad.",
+      "fuente": "Art. 228-229, Decreto Distrital 652 de 2025"
+    },
+    {
+      "tip": "Si pagas tu comparendo a tiempo y haces el curso pedagógico, puedes obtener hasta 50% de descuento (o 25% según el plazo). Consulta antes de pagar el valor completo.",
+      "fuente": "Art. 136, Ley 769 de 2002"
+    },
+    {
+      "tip": "Maneja siempre con SOAT y revisión técnico-mecánica VIGENTES. Si están vencidos, además del comparendo te pueden inmovilizar el vehículo.",
+      "fuente": "Art. 42 y 50, Ley 769 de 2002"
+    },
+    {
+      "tip": "Las multas de tránsito se calculan en UVB (Unidad de Valor Básico), no en salarios mínimos diarios. Verifica el valor del año en curso.",
+      "fuente": "Marco sancionatorio vigente del CNT"
+    },
+    {
+      "tip": "Un comparendo sin la firma del agente, con tu placa o dirección mal escritas, o notificado fuera de los tiempos legales, puede tener vicios de nulidad. Guárdalo y revísalo.",
+      "fuente": "Art. 135, Ley 769 de 2002"
+    },
+    {
+      "tip": "Consulta tus comparendos pendientes en el SIMIT (www.fcm.org.co/simit) antes de hacer cualquier trámite. A veces aparecen multas que no conocías.",
+      "fuente": "SIMIT — Federación Colombiana de Municipios"
+    },
+    {
+      "tip": "En túneles y de noche en carretera, mantén las luces encendidas. Es obligatorio y evita comparendos (y accidentes).",
+      "fuente": "Art. 60 y 69, Ley 769 de 2002"
+    }
+  ]
+}
