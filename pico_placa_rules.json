@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "actualizadoEn": "2026-06-19",
-  "fuente": "Verificado con Secretarías de Movilidad oficiales y prensa local (junio 2026)",
+  "actualizadoEn": "2026-07-13",
+  "fuente": "Verificado con Secretarías de Movilidad oficiales y prensa local (julio 2026 — rotaciones del segundo semestre)",
   "exenciones": {
     "Bogotá": {
       "cubreHibridos": true,
@@ -52,8 +52,8 @@
       {
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
-        "source": "Rotación primer semestre 2026 (vigente desde el 2 de febrero) — Secretaría de Movilidad de Medellín",
-        "nota": "Aplica también a motocicletas (primer dígito) en toda el área metropolitana. La rotación cambia cada semestre.",
+        "source": "Rotación vigente hasta el 31 de julio de 2026 — Secretaría de Movilidad de Medellín",
+        "nota": "Aplica también a motocicletas (primer dígito) en toda el área metropolitana. ⚠️ Esta rotación rige hasta el 31 de julio de 2026; desde el 1 de agosto habrá nueva rotación (aún sin anunciar a julio 13). Verificar en medellin.gov.co.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "05:00", "fin": "20:00" }],
         "aplicaMotos": true,
@@ -64,27 +64,27 @@
       {
         "title": "Pico y Placa — Particular",
         "tipoVehiculo": "particular",
-        "source": "Rotación primer semestre 2026 — Alcaldía de Santiago de Cali",
-        "nota": "Rotación vigente hasta el 30 de junio de 2026; cambia el 1 de julio.",
+        "source": "Rotación segundo semestre 2026 (1 jul – 31 dic) — Alcaldía de Santiago de Cali",
+        "nota": "Rotación vigente del 1 de julio al 31 de diciembre de 2026. Horario continuo 6:00 a.m. – 7:00 p.m.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "06:00", "fin": "19:00" }],
         "aplicaMotos": false,
-        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+        "digitosPorDia": { "1": [9,0], "2": [1,2], "3": [3,4], "4": [5,6], "5": [7,8] }
       }
     ],
     "Cartagena": [
       {
         "title": "Pico y Placa — Particular",
         "tipoVehiculo": "particular",
-        "source": "Decreto 0015 de 2026 — Alcaldía de Cartagena (rotación vigente jun 1–26)",
-        "nota": "⚠️ Cartagena rota los dígitos varias veces al año; verifica la rotación vigente en cartagena.gov.co.",
+        "source": "Decreto 0015 de 2026 — Alcaldía de Cartagena (rotación 30 jun – 2 oct 2026)",
+        "nota": "⚠️ Cartagena rota los dígitos varias veces al año; esta rotación rige hasta el 2 de octubre de 2026. Verifica la vigente en cartagena.gov.co.",
         "sistema": "rotacionDiaria",
         "ventanas": [
           { "inicio": "07:00", "fin": "09:00" },
           { "inicio": "18:00", "fin": "20:00" }
         ],
         "aplicaMotos": false,
-        "digitosPorDia": { "1": [5,6], "2": [7,8], "3": [9,0], "4": [1,2], "5": [3,4] }
+        "digitosPorDia": { "1": [7,8], "2": [9,0], "3": [1,2], "4": [3,4], "5": [5,6] }
       }
     ],
     "Santa Marta": [
@@ -103,26 +103,24 @@
       {
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
-        "source": "Secretaría de Tránsito de Pereira",
-        "nota": "⚠️ La rotación de dígitos pudo cambiar para 2026 y de nuevo en julio; confírmala en la fuente oficial.",
+        "source": "Instituto de Movilidad de Pereira — Decreto 000540 de 2024 (rotación verificada con prensa local, julio 2026)",
+        "nota": "Rotación semanal fija, verificada el 13 de julio de 2026 (vigente hasta el 31 de diciembre de 2026).",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "06:00", "fin": "20:00" }],
         "aplicaMotos": true,
-        "verificado": false,
-        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+        "digitosPorDia": { "1": [0,1], "2": [2,3], "3": [4,5], "4": [6,7], "5": [8,9] }
       }
     ],
     "Bucaramanga": [
       {
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
-        "source": "Dirección de Tránsito de Bucaramanga (rotación trimestral abr–jun 2026)",
-        "nota": "Aplica también sábados de 9:00 AM a 1:00 PM. ⚠️ Rotación trimestral no verificada por completo; confírmala en transitobucaramanga.gov.co.",
+        "source": "Dirección de Tránsito de Bucaramanga (rotación trimestral jul–sep 2026, vigente desde el 6 de julio)",
+        "nota": "Aplica también sábados de 9:00 AM a 1:00 PM con rotación propia de un solo par por sábado (verificar el sábado puntual en transitobucaramanga.gov.co). ⚠️ Rotación trimestral: cambia de nuevo en octubre de 2026.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "06:00", "fin": "20:00" }],
         "aplicaMotos": true,
-        "verificado": false,
-        "digitosPorDia": { "1": [9,0], "2": [1,2], "3": [3,4], "4": [5,6], "5": [7,8] }
+        "digitosPorDia": { "1": [7,8], "2": [9,0], "3": [1,2], "4": [3,4], "5": [5,6] }
       }
     ],
     "Cúcuta": [
@@ -157,13 +155,12 @@
       {
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
-        "source": "Secretaría de Tránsito de Popayán",
-        "nota": "Taxis y transporte público colectivo están exentos. ⚠️ Rotación no verificada para 2026; confírmala en la fuente oficial.",
+        "source": "Decreto 20261000000355 de 2026 — Alcaldía de Popayán (rotación 6 jul – 31 dic 2026)",
+        "nota": "Taxis y transporte público colectivo están exentos. Aplica a particulares, motos, motocarros y carga <1.5t. Rotación alineada deliberadamente con la de Cali.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "07:00", "fin": "20:00" }],
         "aplicaMotos": true,
-        "verificado": false,
-        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+        "digitosPorDia": { "1": [9,0], "2": [1,2], "3": [3,4], "4": [5,6], "5": [7,8] }
       }
     ],
     "Villavicencio": [
@@ -185,13 +182,12 @@
       {
         "title": "Pico y Placa — Particular",
         "tipoVehiculo": "particular",
-        "source": "Decreto 0768 de 2025 — Alcaldía de Ibagué",
-        "nota": "Horas valle libres: 9:00-11:00 AM y 3:00-5:00 PM para placas matriculadas en Ibagué. ⚠️ La rotación cambió para 2026 y de nuevo el 1 de julio; confírmala en la fuente oficial.",
+        "source": "Rotación segundo semestre 2026 (1 jul – 31 dic) — Alcaldía de Ibagué",
+        "nota": "Horas valle libres: 9:00-11:00 AM y 3:00-5:00 PM para placas matriculadas en Ibagué. Rotación vigente del 1 de julio al 31 de diciembre de 2026.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "06:00", "fin": "21:00" }],
         "aplicaMotos": false,
-        "verificado": false,
-        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
+        "digitosPorDia": { "1": [6,7], "2": [8,9], "3": [0,1], "4": [2,3], "5": [4,5] }
       }
     ],
     "Armenia": [
