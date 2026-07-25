@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "actualizadoEn": "2026-07-13",
-  "fuente": "Verificado con Secretarías de Movilidad oficiales y prensa local (julio 2026 — rotaciones del segundo semestre)",
+  "actualizadoEn": "2026-07-25",
+  "fuente": "Verificado con Secretarías de Movilidad oficiales y prensa local (julio 2026 — rotaciones del segundo semestre; entradas de taxi para Pasto y Popayán)",
   "exenciones": {
     "Bogotá": {
       "cubreHibridos": true,
@@ -141,13 +141,23 @@
     ],
     "Pasto": [
       {
-        "title": "Pico y Placa — Particular, Moto y Taxi",
+        "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
         "source": "Decreto 0053 de 2026 — Alcaldía de Pasto",
-        "nota": "Misma rotación para particulares, motos y taxis (último dígito).",
+        "nota": "Restricción por último dígito de la placa.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "07:30", "fin": "19:00" }],
         "aplicaMotos": true,
+        "digitosPorDia": { "1": [0,1], "2": [2,3], "3": [4,5], "4": [6,7], "5": [8,9] }
+      },
+      {
+        "title": "Pico y Placa — Taxi",
+        "tipoVehiculo": "taxi",
+        "source": "Decreto 0053 de 2026 — Alcaldía de Pasto",
+        "nota": "Los taxis siguen la misma rotación que los particulares (último dígito).",
+        "sistema": "rotacionDiaria",
+        "ventanas": [{ "inicio": "07:30", "fin": "19:00" }],
+        "aplicaMotos": false,
         "digitosPorDia": { "1": [0,1], "2": [2,3], "3": [4,5], "4": [6,7], "5": [8,9] }
       }
     ],
@@ -156,11 +166,21 @@
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
         "source": "Decreto 20261000000355 de 2026 — Alcaldía de Popayán (rotación 6 jul – 31 dic 2026)",
-        "nota": "Taxis y transporte público colectivo están exentos. Aplica a particulares, motos, motocarros y carga <1.5t. Rotación alineada deliberadamente con la de Cali.",
+        "nota": "Aplica a particulares, motos, motocarros y carga <1.5t. Rotación alineada deliberadamente con la de Cali. Taxis y transporte público colectivo están exentos (ver entrada de taxi).",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "07:00", "fin": "20:00" }],
         "aplicaMotos": true,
         "digitosPorDia": { "1": [9,0], "2": [1,2], "3": [3,4], "4": [5,6], "5": [7,8] }
+      },
+      {
+        "title": "Pico y Placa — Taxi (exento)",
+        "tipoVehiculo": "taxi",
+        "source": "Decreto 20261000000355 de 2026 — Alcaldía de Popayán",
+        "nota": "Los taxis y el transporte público colectivo están exentos de Pico y Placa en Popayán.",
+        "sistema": "sinRestriccion",
+        "ventanas": [{ "inicio": "00:00", "fin": "00:00" }],
+        "aplicaMotos": false,
+        "digitosPorDia": null
       }
     ],
     "Villavicencio": [
