@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "actualizadoEn": "2026-07-25",
+  "actualizadoEn": "2026-09-27",
   "fuente": "Verificado con Secretarías de Movilidad oficiales y prensa local (julio 2026 — rotaciones del segundo semestre; entradas de taxi para Pasto y Popayán)",
   "exenciones": {
     "Bogotá": {
@@ -52,12 +52,12 @@
       {
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
-        "source": "Rotación vigente hasta el 31 de julio de 2026 — Secretaría de Movilidad de Medellín",
-        "nota": "Aplica también a motocicletas (primer dígito) en toda el área metropolitana. ⚠️ Esta rotación rige hasta el 31 de julio de 2026; desde el 1 de agosto habrá nueva rotación (aún sin anunciar a julio 13). Verificar en medellin.gov.co.",
+        "source": "Rotación segundo semestre 2026 (desde el 3 ago 2026) — Secretaría de Movilidad de Medellín",
+        "nota": "Aplica también a motocicletas (primer dígito) en toda el área metropolitana. Exentos: eléctricos, a gas e híbridos registrados en el RUNT. Rige de lunes a viernes, 5:00 a.m. – 8:00 p.m., durante el segundo semestre de 2026.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "05:00", "fin": "20:00" }],
         "aplicaMotos": true,
-        "digitosPorDia": { "1": [1,7], "2": [0,3], "3": [4,6], "4": [5,9], "5": [2,8] }
+        "digitosPorDia": { "1": [5,8], "2": [1,4], "3": [0,2], "4": [3,6], "5": [7,9] }
       }
     ],
     "Cali": [
@@ -84,7 +84,7 @@
           { "inicio": "18:00", "fin": "20:00" }
         ],
         "aplicaMotos": false,
-        "digitosPorDia": { "1": [7,8], "2": [9,0], "3": [1,2], "4": [3,4], "5": [5,6] }
+        "digitosPorDia": { "1": [9,0], "2": [1,2], "3": [3,4], "4": [5,6], "5": [7,8] }
       }
     ],
     "Santa Marta": [
