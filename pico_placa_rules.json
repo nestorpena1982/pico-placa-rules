@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "actualizadoEn": "2026-09-27",
+  "actualizadoEn": "2026-10-05",
   "fuente": "Verificado con Secretarías de Movilidad oficiales y prensa local (julio 2026 — rotaciones del segundo semestre; entradas de taxi para Pasto y Popayán)",
   "exenciones": {
     "Bogotá": {
@@ -76,15 +76,15 @@
       {
         "title": "Pico y Placa — Particular",
         "tipoVehiculo": "particular",
-        "source": "Decreto 0015 de 2026 — Alcaldía de Cartagena (rotación 30 jun – 2 oct 2026)",
-        "nota": "⚠️ Cartagena rota los dígitos varias veces al año; esta rotación rige hasta el 2 de octubre de 2026. Verifica la vigente en cartagena.gov.co.",
+        "source": "Decreto 0015 de 2026 — Alcaldía de Cartagena (4ª rotación, 5 oct 2026 – 22 ene 2027)",
+        "nota": "⚠️ Del 11 de diciembre de 2026 al 22 de enero de 2027 rige pico y placa de 24 horas (6:00 a.m. a 6:00 a.m. del día siguiente), de lunes a viernes excepto festivos. Verifica en cartagena.gov.co.",
         "sistema": "rotacionDiaria",
         "ventanas": [
           { "inicio": "07:00", "fin": "09:00" },
           { "inicio": "18:00", "fin": "20:00" }
         ],
         "aplicaMotos": false,
-        "digitosPorDia": { "1": [9,0], "2": [1,2], "3": [3,4], "4": [5,6], "5": [7,8] }
+        "digitosPorDia": { "1": [1,2], "2": [3,4], "3": [5,6], "4": [7,8], "5": [9,0] }
       }
     ],
     "Santa Marta": [
@@ -115,12 +115,12 @@
       {
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
-        "source": "Dirección de Tránsito de Bucaramanga (rotación trimestral jul–sep 2026, vigente desde el 6 de julio)",
-        "nota": "Aplica también sábados de 9:00 AM a 1:00 PM con rotación propia de un solo par por sábado (verificar el sábado puntual en transitobucaramanga.gov.co). ⚠️ Rotación trimestral: cambia de nuevo en octubre de 2026.",
+        "source": "Dirección de Tránsito de Bucaramanga (rotación trimestral oct–dic 2026, vigente desde el 5 de octubre)",
+        "nota": "Aplica también sábados de 9:00 AM a 1:00 PM con rotación propia de un solo par por sábado (verificar el sábado puntual en transitobucaramanga.gov.co). ⚠️ Rotación trimestral: cambia de nuevo en enero de 2027.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "06:00", "fin": "20:00" }],
         "aplicaMotos": true,
-        "digitosPorDia": { "1": [7,8], "2": [9,0], "3": [1,2], "4": [3,4], "5": [5,6] }
+        "digitosPorDia": { "1": [5,6], "2": [7,8], "3": [9,0], "4": [1,2], "5": [3,4] }
       }
     ],
     "Cúcuta": [
