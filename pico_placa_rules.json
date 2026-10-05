@@ -119,11 +119,13 @@
         "title": "Pico y Placa — Particular y Moto",
         "tipoVehiculo": "particular",
         "source": "Dirección de Tránsito de Bucaramanga (rotación trimestral oct–dic 2026, vigente desde el 5 de octubre)",
-        "nota": "Aplica también sábados de 9:00 AM a 1:00 PM con rotación propia de un solo par por sábado (verificar el sábado puntual en transitobucaramanga.gov.co). ⚠️ Rotación trimestral: cambia de nuevo en enero de 2027.",
+        "nota": "Los sábados también hay pico y placa, de 9:00 a.m. a 1:00 p.m., pero solo para un par de dígitos que cambia cada sábado (no sigue la tabla de lunes a viernes). Por eso el sábado no podemos calcularlo: confírmalo en transitobucaramanga.gov.co. ⚠️ Rotación trimestral: cambia de nuevo en enero de 2027.",
         "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "06:00", "fin": "20:00" }],
         "aplicaMotos": true,
-        "digitosPorDia": { "1": [5,6], "2": [7,8], "3": [9,0], "4": [1,2], "5": [3,4] }
+        "digitosPorDia": { "1": [5,6], "2": [7,8], "3": [9,0], "4": [1,2], "5": [3,4] },
+        "aplicaSabado": true,
+        "urlConsulta": "https://transitobucaramanga.gov.co/"
       }
     ],
     "Cúcuta": [
