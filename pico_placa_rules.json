@@ -40,12 +40,15 @@
       {
         "title": "Pico y Placa — Taxi / Transporte especial",
         "tipoVehiculo": "taxi",
-        "source": "Decreto Único Sectorial 652 de 2025 (compiló el Decreto 003 de 2023) — Alcaldía Mayor de Bogotá",
-        "nota": "Rotación semanal en grupos de dos dígitos (1-2, 3-4, 5-6, 7-8, 9-0). Verificar semana actual en movilidadbogota.gov.co",
-        "sistema": "sinRestriccion",
+        "source": "Decreto Único Sectorial 652 de 2025 — Secretaría Distrital de Movilidad de Bogotá. Calendario del mes: movilidadbogota.gov.co",
+        "nota": "En Bogotá los taxis tienen pico y placa de lunes a sábado (5:30 a.m. a 9:00 p.m.), pero los dígitos restringidos cambian cada día según un calendario mensual de la Secretaría de Movilidad, no por día de la semana. Por eso no podemos calcularlo: confírmalo en el calendario oficial del mes.",
+        "sistema": "rotacionDiaria",
         "ventanas": [{ "inicio": "05:30", "fin": "21:00" }],
         "aplicaMotos": false,
-        "digitosPorDia": null
+        "digitosPorDia": null,
+        "verificado": false,
+        "aplicaSabado": true,
+        "urlConsulta": "https://www.movilidadbogota.gov.co/"
       }
     ],
     "Medellín": [
